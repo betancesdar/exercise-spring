@@ -1,0 +1,22 @@
+package net.devdariobetances.demoApi.Models;
+
+//POJO -> Plain old java object
+
+
+public class Bootcamper {
+    private String name;
+
+    public Bootcamper() {}
+
+    public Bootcamper(String name){
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
